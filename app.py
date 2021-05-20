@@ -10,11 +10,11 @@ import json
 
 with open('config.json','r') as c:
     params = json.load(c)['params']
-'''
+
 local_server = True
 UPLOAD_FOLDER = '/path/to/the/uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
-app = Flask(__name__)'''
+app = Flask(__name__)
 
 app.secret_key = 'key'
 db = SQLAlchemy(app)
@@ -157,7 +157,7 @@ def log_out():
     else:
         return render_template('index.html',message='Already Logout')
 
-
+'''
 @app.route('/upload')
 def upload_file(allowed_file=None):
     if request.method == 'GET':
@@ -175,8 +175,8 @@ def upload_file(allowed_file=None):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('uploaded_file',
-                                    filename=filename))
-    return '''
+                                    filename=filename))'''
+'''    return ''''''
     <!doctype html>
     <title>Upload new File</title>
     <h1>Upload new File</h1>
@@ -186,12 +186,11 @@ def upload_file(allowed_file=None):
     </form>
     '''
     
-
+'''
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         f = request.files['file']
         f.save(secure_filename(f.filename))
         return 'file uploaded successfully'
-
-#
+'''
