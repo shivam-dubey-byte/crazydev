@@ -1,0 +1,48 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/crazydev",
+    "pro_uri": "mysql://root:@localhost/crazydev",
+    "fb_url": "https://faceboobk.com/nighthowler",
+    "tw_url": "https://twitter.com",
+    "sg_url": "https://google.com",
+    "title": "Night_Howler",
+    "admin-user": "admin@admin",
+    "admin-password": "admin",
+    "gmail-user": "nityaanandmishra42@gmail.com",
+    "gmail-password": "shivamR@J-123",
+    "slide1_line1": "Welcome to Gamesplay",
+    "slide1_line2": "Online gaming site",
+    "slide2_line1": "A selection of the best",
+    "slide2_line2": "Games just for you",
+    "slide3_line1": "All new games are",
+    "slide3_line2": "Only in Gamesplay",
+    "inf-slide1": "More about us",
+    "inf-slide2": "Our Gallery",
+    "inf-slide3": "Upcoming Games",
+    "footer-sen1": "FOLLOWS ON SOCIAL MEDIA",
+    "footer-sen2": "to see us there.",
+    "dashboard-img": "https://source.unsplash.com/weekly?water",
+    "dashboard-collection-img1": "https://source.unsplash.com/collection/190727/1600x900",
+    "dashboard-img1": "https://source.unsplash.com/BJx8whKXCgc/500x200",
+    "upload_location": "E:\\NIght Howler",
+    "number_of_tourney": "0:5"
+  },
+  "photos": {
+        "id": "LBI7cgq3pbM",
+         "width": 5245,
+         "height": 3497,
+         "color": "#60544D",
+         "urls": {
+            "raw": "https://images.unsplash.com/example.jpg?ixid=123123123",
+            "full": "https://images.unsplash.com/example.jpg?q=75&fm=jpg&ixid=123123123",
+            "regular": "https://images.unsplash.com/example.jpg?q=75&fm=jpg&w=1080&fit=max&?ixid=123123123",
+            "small": "https://images.unsplash.com/example.jpg?q=75&fm=jpg&w=400&fit=max&&ixid=123123123",
+            "thumb": "https://images.unsplash.com/example.jpg?q=75&fm=jpg&w=200&fit=max&ixid=123123123"
+        },
+        "user": "q_19Ny2GV6zGFNF6yxp_y6TKbbyXRp6UDaqwdctEBzw",
+        "links": "o-eHfJRqDH34LVETrOprVpEfL76dhcHNr1ZqSqVSIN8"
+}
+
+}
