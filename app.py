@@ -5,16 +5,16 @@ from flask import Flask, render_template, session, redirect, request, url_for, f
 from flask_hashing import Hashing
 from flask_sqlalchemy import SQLAlchemy
 import os
-from werkzeug.utils import secure_filename
+#from werkzeug.utils import secure_filename
 import json
 
 with open('config.json','r') as c:
     params = json.load(c)['params']
-
+'''
 local_server = True
 UPLOAD_FOLDER = '/path/to/the/uploads'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
-app = Flask(__name__)
+app = Flask(__name__)'''
 
 app.secret_key = 'key'
 db = SQLAlchemy(app)
